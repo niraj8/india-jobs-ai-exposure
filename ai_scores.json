@@ -1,0 +1,764 @@
+[
+  {
+    "nco_group": "111",
+    "title": "Legislators and Senior Officials",
+    "exposure": 6,
+    "rationale": "While aspects of policy analysis, data synthesis, and communication for legislators and senior officials could be augmented by AI, the core functions involve complex human judgment, negotiation, public representation, and ethical decision-making in unpredictable social and political environments. AI can assist, but cannot replace, the human element crucial to these roles, especially in the Indian context where personal relationships and nuanced understanding of local dynamics are paramount."
+  },
+  {
+    "nco_group": "112",
+    "title": "Managing Directors and Chief Executives",
+    "exposure": 7,
+    "rationale": "While managing directors and chief executives perform significant knowledge work, their roles heavily involve strategic decision-making, complex human interaction, leadership, and navigating unpredictable business environments. AI can assist with data analysis, reporting, and some strategic planning, but the core functions of vision setting, motivating teams, and high-stakes negotiation remain deeply human. The large employment size in India also suggests a significant informal sector component where AI adoption might be slower."
+  },
+  {
+    "nco_group": "121",
+    "title": "Business Services and Administration Managers",
+    "exposure": 7,
+    "rationale": "Business Services and Administration Managers primarily deal with planning, organizing, and overseeing administrative functions, which involves significant digital communication, data analysis, and strategic decision-making. AI can heavily assist with tasks like scheduling, resource allocation, performance monitoring, and report generation, making individual managers significantly more productive and potentially reducing the overall need for human oversight in routine administrative tasks. While human judgment and interpersonal skills remain crucial, the core work product is largely digital and information-based."
+  },
+  {
+    "nco_group": "122",
+    "title": "Sales, Marketing and Development Managers",
+    "exposure": 7,
+    "rationale": "This role involves significant strategic planning, market analysis, and communication, which are increasingly supported and enhanced by AI tools. While human relationship building and negotiation remain crucial, AI can automate market research, personalize marketing campaigns, and optimize sales processes, making individual managers significantly more productive and potentially reducing the overall need for human intervention in routine tasks."
+  },
+  {
+    "nco_group": "131",
+    "title": "Production Managers in Agriculture, Forestry and Fisheries",
+    "exposure": 5,
+    "rationale": "While production managers in agriculture, forestry, and fisheries involve significant on-the-ground physical presence and decision-making in unpredictable environments, AI can increasingly assist with data analysis for crop/livestock management, resource optimization, and predictive analytics. The core management function still requires human judgment and interaction in the physical world, but AI can automate and optimize many information-processing and planning tasks."
+  },
+  {
+    "nco_group": "132",
+    "title": "Manufacturing, Mining, Construction and Distribution Managers",
+    "exposure": 7,
+    "rationale": "This role involves significant knowledge work, including planning, strategizing, and decision-making, which AI can heavily support through data analysis, predictive modeling, and optimization. While there's a physical component in overseeing operations, much of the core managerial function is digital and information-based, making it highly susceptible to AI-driven productivity gains and potential restructuring."
+  },
+  {
+    "nco_group": "133",
+    "title": "Information and Communications Technology Services Manager",
+    "exposure": 7,
+    "rationale": "As an ICT Services Manager, the role involves significant digital interaction, strategic planning, and oversight of technology services. While human judgment and team management remain crucial, AI can increasingly assist with data analysis, resource optimization, project management, and even some decision-making processes, making managers more productive and potentially reducing the number needed for certain tasks."
+  },
+  {
+    "nco_group": "134",
+    "title": "Professional Services Managers",
+    "exposure": 7,
+    "rationale": "Professional Services Managers primarily deal with planning, organizing, and overseeing service delivery, which involves significant digital communication, data analysis, and strategic decision-making. While human interaction and judgment remain crucial, AI can increasingly assist with project management, resource allocation, performance analysis, and even client communication, making workers significantly more productive and potentially reducing the number of managers needed for routine oversight."
+  },
+  {
+    "nco_group": "141",
+    "title": "Hotel and Restaurant Managers",
+    "exposure": 5,
+    "rationale": "Hotel and Restaurant Managers involve a significant amount of human interaction, on-site problem-solving, and managing physical operations, which are difficult for AI to fully automate. While AI can assist with tasks like booking systems, inventory management, and customer service chatbots, the core functions of leadership, guest relations, and managing staff in a dynamic environment still require human presence and judgment."
+  },
+  {
+    "nco_group": "142",
+    "title": "Retail and Wholesale Trade Managers",
+    "exposure": 6,
+    "rationale": "While retail and wholesale trade managers involve significant human interaction and on-site presence, a substantial portion of their work involves data analysis, inventory management, sales forecasting, and strategic planning. AI can significantly automate and optimize these digital tasks, making managers more productive and potentially reducing the number of managers needed for certain functions. The Indian context of a large informal retail sector might temper the immediate impact, but formal retail is growing rapidly."
+  },
+  {
+    "nco_group": "143",
+    "title": "Other Services Managers",
+    "exposure": 6,
+    "rationale": "Other Services Managers involve a significant amount of planning, organizing, coordinating, and decision-making, which are knowledge-based tasks where AI can provide substantial assistance. While human interaction and judgment remain crucial for managing teams and client relationships, AI can automate administrative tasks, analyze performance data, and optimize resource allocation, increasing productivity and potentially reducing the number of managers needed."
+  },
+  {
+    "nco_group": "211",
+    "title": "Physical and Earth Science Professionals",
+    "exposure": 7,
+    "rationale": "Physical and Earth Science Professionals primarily engage in knowledge work, analysis, and research, much of which is digital (data analysis, modeling, report writing). While some aspects require fieldwork or lab work, AI can significantly enhance productivity in data processing, simulation, and predictive modeling, making these professionals highly exposed to AI-driven changes."
+  },
+  {
+    "nco_group": "212",
+    "title": "Mathematicians, Actuaries and Statisticians",
+    "exposure": 8,
+    "rationale": "This occupation involves highly analytical and computational tasks, which are core strengths of AI. While human judgment and problem-solving remain crucial, AI can automate complex calculations, data analysis, and model building, significantly increasing productivity and potentially reducing the need for human intervention in routine tasks. The work is predominantly digital, making it highly susceptible to AI's advancements."
+  },
+  {
+    "nco_group": "213",
+    "title": "Life Sciences Professionals",
+    "exposure": 7,
+    "rationale": "Life Sciences Professionals heavily rely on data analysis, research, and report writing, which are digital tasks highly susceptible to AI automation and enhancement. While some aspects involve lab work or fieldwork, a significant portion of their core work product is digital, making them highly exposed to AI's transformative potential in research and analysis."
+  },
+  {
+    "nco_group": "214",
+    "title": "Engineering Professionals (Excluding Electrotechnology)",
+    "exposure": 7,
+    "rationale": "Engineering professionals, while often dealing with physical systems, rely heavily on digital tools for design, simulation, analysis, and project management. AI can significantly enhance productivity in these areas, automating routine design tasks, optimizing processes, and assisting with complex problem-solving, leading to high exposure."
+  },
+  {
+    "nco_group": "215",
+    "title": "Electrotechnology Engineers",
+    "exposure": 7,
+    "rationale": "Electrotechnology Engineers primarily engage in design, analysis, and problem-solving, which are increasingly supported by AI tools for simulation, optimization, and automation of routine design tasks. While some aspects involve physical implementation and project management, a significant portion of their work is digital and knowledge-based, making them highly susceptible to AI augmentation and efficiency gains."
+  },
+  {
+    "nco_group": "216",
+    "title": "Architects, Planners, Surveyors and Designers",
+    "exposure": 7,
+    "rationale": "This occupation involves significant digital work like design, planning, and analysis using specialized software. While creativity and client interaction remain human-centric, AI can heavily assist in generating designs, optimizing plans, and analyzing data, making individual professionals much more productive and potentially reducing the overall demand for human labor in routine design tasks."
+  },
+  {
+    "nco_group": "221",
+    "title": "Medical Doctors",
+    "exposure": 5,
+    "rationale": "Medical doctors require extensive human interaction, empathy, physical examination, and complex decision-making in unpredictable situations, which are difficult for AI to fully replicate. While AI can assist with diagnostics, research, and administrative tasks, the core patient care and surgical procedures remain highly human-centric. The Indian context also implies varying levels of technology adoption across different healthcare settings."
+  },
+  {
+    "nco_group": "222",
+    "title": "Nursing and Midwifery Professionals",
+    "exposure": 4,
+    "rationale": "Nursing and midwifery professionals require significant in-person interaction, physical care, and real-time judgment in unpredictable environments. While AI might assist with diagnostics, record-keeping, or administrative tasks, the core of the job involves direct patient care and human empathy, which are difficult to automate."
+  },
+  {
+    "nco_group": "223",
+    "title": "Traditional and Complementary Medicine Professionals",
+    "exposure": 5,
+    "rationale": "While traditional and complementary medicine involves significant human interaction and physical examination, aspects like diagnosis, treatment planning, and research into herbal remedies or therapeutic approaches could be augmented by AI. However, the core of the profession relies heavily on personalized patient interaction, touch, and intuitive understanding, which are difficult for AI to replicate."
+  },
+  {
+    "nco_group": "224",
+    "title": "Paramedical Practitioners",
+    "exposure": 4,
+    "rationale": "Paramedical practitioners perform a mix of physical clinical tasks and diagnostic analysis that requires real-time human presence and manual dexterity. While AI can significantly assist in diagnostic interpretation and patient monitoring, the core of the job involves physical intervention, emergency response, and direct patient care that cannot be digitized."
+  },
+  {
+    "nco_group": "225",
+    "title": "Veterinarians",
+    "exposure": 4,
+    "rationale": "Veterinary work requires significant physical presence for examinations, surgeries, and manual procedures that AI cannot replicate. While AI can assist in diagnostic imaging, pathology analysis, and treatment planning, the core of the job involves handling live animals and real-time clinical judgment in unpredictable environments."
+  },
+  {
+    "nco_group": "226",
+    "title": "Other Health Professionals",
+    "exposure": 5,
+    "rationale": "This group includes diverse roles like physiotherapists, speech therapists, and dieticians, which combine digital diagnostic/planning tasks with essential physical therapy and interpersonal interaction. While AI can significantly enhance treatment planning, medical imaging analysis, and patient monitoring, the core requirement for hands-on physical intervention and real-time human empathy in the Indian healthcare context limits full automation."
+  },
+  {
+    "nco_group": "231",
+    "title": "University and Higher Education Teachers",
+    "exposure": 7,
+    "rationale": "This role involves high-level knowledge work, research, and content creation, all of which are being significantly transformed by Generative AI. While the physical classroom presence and mentorship aspects provide a buffer, AI's ability to automate grading, lesson planning, and literature reviews increases productivity and reshapes the core pedagogical duties."
+  },
+  {
+    "nco_group": "232",
+    "title": "Vocational Education Teachers",
+    "exposure": 6,
+    "rationale": "Vocational education involves a mix of theoretical knowledge and practical, hands-on training, which provides some protection against full automation. However, AI can significantly automate curriculum design, personalized student assessment, and the digital components of technical training, leading to high exposure for the knowledge-transfer aspects of the role."
+  },
+  {
+    "nco_group": "233",
+    "title": "Secondary Education Teachers",
+    "exposure": 6,
+    "rationale": "Secondary education involves significant digital-adjacent tasks like lesson planning, grading, and content creation which are highly susceptible to AI automation. While the physical presence and interpersonal mentorship required in Indian classrooms provide a buffer, AI-driven personalized learning and administrative tools will substantially restructure how these professionals manage their workload."
+  },
+  {
+    "nco_group": "234",
+    "title": "Primary School and Early Childhood Teachers",
+    "exposure": 5,
+    "rationale": "While AI can significantly automate lesson planning, grading, and personalized content creation, the core of primary and early childhood education relies on physical supervision, emotional intelligence, and social development. In the Indian context, the high demand for human-led classroom management and the physical nature of childcare provide a substantial barrier to full automation."
+  },
+  {
+    "nco_group": "235",
+    "title": "Other Teaching Professionals",
+    "exposure": 6,
+    "rationale": "This category includes diverse roles like private tutors and special education teachers whose work involves significant information delivery and curriculum design, which are highly susceptible to AI augmentation. While the low median pay suggests a large informal sector with less immediate tech integration, the core tasks of lesson planning and content creation are increasingly being automated by generative AI tools."
+  },
+  {
+    "nco_group": "241",
+    "title": "Finance Professionals",
+    "exposure": 8,
+    "rationale": "This occupation involves high-level digital tasks such as financial analysis, risk assessment, and reporting, which are increasingly being automated by sophisticated AI algorithms and large language models. While high-level strategic advisory and Indian regulatory compliance require human judgment, the core work product is digital and data-driven, making it highly susceptible to significant productivity shifts and workforce restructuring."
+  },
+  {
+    "nco_group": "242",
+    "title": "Administration Professionals",
+    "exposure": 8,
+    "rationale": "This occupation involves predominantly digital tasks such as policy analysis, organizational planning, and administrative coordination, which are highly susceptible to AI-driven automation and augmentation. While some high-level strategic judgment and stakeholder management are required, the core work product is information-based and can be significantly streamlined by generative AI and data analytics tools."
+  },
+  {
+    "nco_group": "243",
+    "title": "Sales, Marketing and Public Relations Professionals",
+    "exposure": 8,
+    "rationale": "This occupation is primarily digital and information-based, involving content creation, market analysis, and strategic communication which are core strengths of Generative AI. While high-level relationship management and local cultural nuances in the Indian market provide some protection, the majority of tasks like copywriting, lead generation, and campaign optimization are facing significant restructuring and automation."
+  },
+  {
+    "nco_group": "251",
+    "title": "Software and Application Developers, and Analysts",
+    "exposure": 9,
+    "rationale": "This occupation is entirely digital, with core tasks like coding, debugging, and system analysis being directly impacted by Large Language Models and automated development tools. While high-level architecture and complex problem-solving still require human oversight, AI significantly increases individual productivity, potentially reducing the total number of workers needed for routine development tasks."
+  },
+  {
+    "nco_group": "252",
+    "title": "Database and Network Professionals",
+    "exposure": 9,
+    "rationale": "This occupation is entirely digital and centered on data management, network optimization, and security, all of which are domains where AI excels at pattern recognition and automation. AI tools are rapidly automating routine tasks like database tuning, anomaly detection, and network configuration, significantly increasing individual productivity and reducing the total number of workers required for standard maintenance."
+  },
+  {
+    "nco_group": "261",
+    "title": "Legal Professionals",
+    "exposure": 7,
+    "rationale": "Legal work in India involves heavy document analysis, research, and drafting, all of which are highly susceptible to AI-driven automation and efficiency gains. While courtroom advocacy and client negotiations require human judgment and physical presence, the high volume of digital information processing makes the profession highly exposed to restructuring."
+  },
+  {
+    "nco_group": "262",
+    "title": "Librarians, Archivists and Curators",
+    "exposure": 7,
+    "rationale": "This occupation involves high levels of information organization, cataloging, and research, which are tasks increasingly streamlined by AI and automated digital systems. While curators and archivists require human judgment for physical preservation and cultural context, the core digital workflows of data management and information retrieval are highly exposed to AI-driven efficiency gains."
+  },
+  {
+    "nco_group": "263",
+    "title": "Social and Religious Professionals",
+    "exposure": 4,
+    "rationale": "While these roles involve information processing and counseling that AI can assist with, the core of the work is deeply rooted in human empathy, spiritual guidance, and community leadership within the Indian social context. The low median pay and high reliance on face-to-face interpersonal trust create a significant barrier to full AI automation, though AI may assist in administrative or research tasks."
+  },
+  {
+    "nco_group": "264",
+    "title": "Authors, Journalists and Linguists",
+    "exposure": 9,
+    "rationale": "The work product of authors, journalists, and linguists is entirely digital, consisting of text and language processing which aligns perfectly with the core capabilities of Large Language Models. While high-level investigative journalism and creative literature still require human nuance, the vast majority of routine reporting, content creation, and translation tasks are facing immediate and massive restructuring due to AI automation."
+  },
+  {
+    "nco_group": "265",
+    "title": "Creative and Performing Artists",
+    "exposure": 7,
+    "rationale": "This occupation involves high levels of digital content creation (writing, music, visual arts) where Generative AI is rapidly automating core tasks and enhancing productivity. While live performance and cultural nuance provide a buffer in the Indian context, the shift toward AI-assisted digital media significantly reshapes the professional landscape and competitive requirements."
+  },
+  {
+    "nco_group": "311",
+    "title": "Physical and Engineering Science Technicians",
+    "exposure": 6,
+    "rationale": "This occupation involves a mix of digital data analysis and physical laboratory or field work, such as testing equipment and monitoring industrial processes. While AI can significantly automate data interpretation, simulation, and reporting tasks, the requirement for physical presence to maintain hardware and conduct manual experiments provides a buffer against full automation."
+  },
+  {
+    "nco_group": "312",
+    "title": "Mining, Manufacturing and Construction Supervisors",
+    "exposure": 4,
+    "rationale": "This role involves a significant amount of physical oversight, safety inspections, and real-time coordination of manual labor on-site, which provides a buffer against full automation. However, AI is increasingly used for predictive maintenance, resource scheduling, and automated progress monitoring, which will streamline the administrative and planning components of the job."
+  },
+  {
+    "nco_group": "313",
+    "title": "Process Control Technicians",
+    "exposure": 6,
+    "rationale": "Process control technicians operate in a hybrid environment where they monitor digital systems to manage physical industrial processes. While AI can significantly automate data monitoring, anomaly detection, and optimization of control loops, the role still requires physical presence for equipment maintenance, manual overrides, and on-site troubleshooting in Indian industrial settings."
+  },
+  {
+    "nco_group": "314",
+    "title": "Life Science Technicians and Related Associate Professionals",
+    "exposure": 5,
+    "rationale": "This occupation involves a significant mix of physical laboratory work, such as preparing specimens and maintaining equipment, which provides a buffer against full automation. However, the data analysis, documentation, and reporting aspects of the role are highly susceptible to AI-driven optimization and automated processing, leading to moderate overall exposure."
+  },
+  {
+    "nco_group": "315",
+    "title": "Ship and Aircraft Controllers, and Technicians",
+    "exposure": 6,
+    "rationale": "This occupation involves high-stakes monitoring and coordination of complex digital and mechanical systems, which are increasingly being augmented by AI-driven navigation and predictive maintenance tools. While the core responsibility requires human judgment and physical presence for safety and regulatory reasons, AI is rapidly automating the data-heavy aspects of route optimization and system diagnostics."
+  },
+  {
+    "nco_group": "321",
+    "title": "Medical and Pharmaceutical Technicians",
+    "exposure": 5,
+    "rationale": "This role involves a significant mix of physical laboratory work, such as handling biological samples and operating diagnostic machinery, which provides a buffer against full automation. However, the information-processing component\u2014analyzing test results, identifying patterns in imaging, and data recording\u2014is highly susceptible to AI-driven diagnostic tools that can increase efficiency and accuracy."
+  },
+  {
+    "nco_group": "322",
+    "title": "Nursing and Midwifery Associate Professionals",
+    "exposure": 4,
+    "rationale": "While AI can assist with patient monitoring, documentation, and diagnostic support, the core of this role involves physical bedside care, manual procedures, and emotional support that require a human presence. In the Indian context, the high volume of hands-on clinical work and the reliance on interpersonal interaction in healthcare settings provide a significant buffer against automation."
+  },
+  {
+    "nco_group": "323",
+    "title": "Traditional and Complementary Medicine Associate Professionals",
+    "exposure": 4,
+    "rationale": "This occupation involves a significant amount of physical interaction, manual therapy, and patient assessment that cannot be digitized. However, AI exposure is moderate because diagnostic support, herbal formulation databases, and treatment planning in traditional medicine are increasingly being augmented by digital tools and information processing."
+  },
+  {
+    "nco_group": "324",
+    "title": "Veterinary Technicians and Assistants",
+    "exposure": 3,
+    "rationale": "This occupation requires significant physical presence for animal handling, clinical procedures, and laboratory work that cannot be digitized. While AI may assist in diagnostic analysis or administrative record-keeping, the core tasks involve manual dexterity and real-time interaction with animals in a physical environment."
+  },
+  {
+    "nco_group": "325",
+    "title": "Other Health Associate Professionals",
+    "exposure": 4,
+    "rationale": "This occupation involves a mix of technical medical tasks and direct patient interaction, which provides a buffer against full automation. While AI can significantly assist in diagnostic support, record-keeping, and monitoring, the physical nature of healthcare delivery and the need for human empathy in the Indian clinical context keep exposure at a moderate level."
+  },
+  {
+    "nco_group": "331",
+    "title": "Financial and Mathematical Associate Professionals",
+    "exposure": 8,
+    "rationale": "This occupation involves digital tasks such as financial calculations, data processing, and statistical analysis, which are highly susceptible to AI automation. While some human oversight is required for Indian regulatory compliance and client communication, the core work product is digital and can be significantly streamlined or replaced by advanced algorithms and generative AI."
+  },
+  {
+    "nco_group": "332",
+    "title": "Sales and Purchasing Agents and Brokers",
+    "exposure": 7,
+    "rationale": "This occupation involves significant digital communication, data analysis, and negotiation, all of which are increasingly being augmented or automated by AI-driven CRM and procurement tools. While high-level relationship management and physical inspections provide some protection, the core tasks of matching buyers with sellers and processing transactions are highly susceptible to AI efficiency gains."
+  },
+  {
+    "nco_group": "333",
+    "title": "Business Service Agents",
+    "exposure": 8,
+    "rationale": "This occupation involves digital-centric tasks such as brokering, clearing, and coordinating business services, which are highly susceptible to AI-driven automation and algorithmic matching. While some human negotiation and relationship management are required, the core functions of information processing and transaction facilitation are increasingly being handled by AI platforms, significantly reducing the need for human intermediaries."
+  },
+  {
+    "nco_group": "334",
+    "title": "Administrative and Specialized Secretaries",
+    "exposure": 9,
+    "rationale": "This occupation involves high-volume digital tasks such as scheduling, document preparation, and information management, all of which are core strengths of Large Language Models and AI agents. In the Indian corporate context, AI can automate the vast majority of these administrative workflows, significantly reducing the need for human intermediaries for routine coordination and specialized documentation."
+  },
+  {
+    "nco_group": "335",
+    "title": "Government Regulatory Associate Professionals",
+    "exposure": 7,
+    "rationale": "This occupation involves high volumes of information processing, compliance checking, and document review, which are increasingly susceptible to AI-driven automation and analysis. While the Indian context requires some physical inspections and human judgment in regulatory enforcement, the core tasks of verifying data against regulations are fundamentally digital and highly exposed to AI efficiency gains."
+  },
+  {
+    "nco_group": "341",
+    "title": "Legal, Social and Religious Associate Professionals",
+    "exposure": 6,
+    "rationale": "This group involves significant information processing, documentation, and research tasks that are highly susceptible to AI-driven automation and augmentation. While social and religious roles require a degree of human empathy and physical presence, the legal and administrative components are increasingly being reshaped by AI tools for drafting and case analysis."
+  },
+  {
+    "nco_group": "342",
+    "title": "Sports and Fitness Workers",
+    "exposure": 2,
+    "rationale": "This occupation requires physical presence, manual demonstration of techniques, and real-time human interaction in a physical environment. While AI can assist with personalized training plans or performance analytics, the core value of the job lies in physical coaching, safety supervision, and hands-on motivation which cannot be automated."
+  },
+  {
+    "nco_group": "343",
+    "title": "Administrative Associate Professionals",
+    "exposure": 8,
+    "rationale": "This occupation involves high volumes of routine digital tasks such as scheduling, document preparation, and information management, which are highly susceptible to AI automation. While some human coordination is required, the core work product is digital and can be significantly streamlined or replaced by AI agents and large language models."
+  },
+  {
+    "nco_group": "351",
+    "title": "Information and Communication Technology Operations and User Support Technicians",
+    "exposure": 8,
+    "rationale": "This occupation is highly digital, involving troubleshooting, system monitoring, and user support that can increasingly be handled by AI-driven diagnostic tools and automated help desks. While some hardware-related tasks require physical presence, the majority of the work involves software interfaces and remote support, making it highly susceptible to AI-driven productivity gains and task automation."
+  },
+  {
+    "nco_group": "352",
+    "title": "Telecommunication and Broadcasting Technicians",
+    "exposure": 4,
+    "rationale": "This role involves a significant physical component, such as installing, maintaining, and repairing hardware and infrastructure in the field, which provides a buffer against AI. However, AI is increasingly automating the diagnostic, monitoring, and signal optimization aspects of the job, reducing the time spent on troubleshooting and potentially lowering the demand for human technicians."
+  },
+  {
+    "nco_group": "411",
+    "title": "General Office Clerks",
+    "exposure": 9,
+    "rationale": "General office clerks perform routine digital tasks such as data entry, document filing, and basic correspondence, which are highly susceptible to automation through LLMs and RPA. In the Indian context, as government and private sectors digitize, these roles face significant restructuring as AI can process information and manage workflows more efficiently than human staff."
+  },
+  {
+    "nco_group": "412",
+    "title": "Secretaries (General)",
+    "exposure": 9,
+    "rationale": "General secretaries perform tasks that are almost entirely digital and information-based, such as scheduling, drafting correspondence, and organizing data, all of which are core strengths of Large Language Models. In the Indian context, while some interpersonal coordination remains, the rapid adoption of AI assistants significantly reduces the need for human intervention in routine clerical and administrative workflows."
+  },
+  {
+    "nco_group": "413",
+    "title": "Keyboard Operators",
+    "exposure": 10,
+    "rationale": "This occupation involves routine, digital information processing and data entry that is highly susceptible to automation through Optical Character Recognition (OCR) and Large Language Models. Since the work product is entirely digital and requires minimal complex judgment or physical presence, AI can already perform these tasks with higher speed and accuracy than human operators."
+  },
+  {
+    "nco_group": "421",
+    "title": "Tellers, Money Collectors and Related Clerks",
+    "exposure": 9,
+    "rationale": "This occupation involves routine information processing, financial transactions, and record-keeping that are almost entirely digital or digitizable. In the Indian context, the rapid expansion of UPI, digital banking, and AI-driven kiosks is aggressively automating these roles, leaving very little that requires human intervention beyond occasional troubleshooting."
+  },
+  {
+    "nco_group": "422",
+    "title": "Client Information Workers",
+    "exposure": 9,
+    "rationale": "This occupation involves routine information processing, answering queries, and managing digital records, all of which are primary targets for Large Language Models and automated chatbots. Since the work product is almost entirely digital and communication-based, AI can automate the vast majority of core tasks, leading to significant workforce restructuring in the Indian service sector."
+  },
+  {
+    "nco_group": "431",
+    "title": "Numerical Clerks",
+    "exposure": 9,
+    "rationale": "Numerical clerks perform routine digital tasks such as data entry, basic bookkeeping, and payroll processing, which are highly susceptible to automation through AI and RPA. Since the work product is entirely digital and follows structured rules, AI can perform these tasks with higher speed and accuracy, leading to significant workforce restructuring in the Indian formal sector."
+  },
+  {
+    "nco_group": "432",
+    "title": "Material Recording and Transport Clerks",
+    "exposure": 7,
+    "rationale": "This occupation involves routine information processing, inventory tracking, and documentation, which are highly susceptible to AI-driven automation and digital integration. While some physical presence in warehouses is required, the core clerical tasks are increasingly handled by automated systems and AI-powered logistics software, significantly reducing the need for manual record-keeping."
+  },
+  {
+    "nco_group": "441",
+    "title": "Other Clerical Support Workers",
+    "exposure": 9,
+    "rationale": "This occupation involves routine information processing, filing, and administrative tasks that are fundamentally digital or paper-based and easily digitized. Given the low complexity and high predictability of these clerical duties, AI and automation can already perform the majority of the core workload, leading to significant displacement risk in the Indian formal sector."
+  },
+  {
+    "nco_group": "511",
+    "title": "Travel Attendants, Conductors and Guides",
+    "exposure": 4,
+    "rationale": "This occupation involves a significant amount of physical presence, real-time human interaction, and safety responsibilities that AI cannot replicate. However, AI is increasingly automating peripheral tasks like ticketing, itinerary planning, and providing automated travel information, which reduces the need for human intervention in the information-heavy aspects of the role."
+  },
+  {
+    "nco_group": "512",
+    "title": "Cooks",
+    "exposure": 2,
+    "rationale": "Cooking is a highly physical and sensory occupation requiring manual dexterity, real-time adjustments to ingredients, and physical presence in a kitchen environment. While AI might assist with recipe generation or inventory management, the core tasks of food preparation and execution remain shielded from automation due to the high cost and complexity of robotics compared to human labor in the Indian context."
+  },
+  {
+    "nco_group": "513",
+    "title": "Waiters and Bartenders",
+    "exposure": 3,
+    "rationale": "The core of this occupation involves physical tasks like serving food and drinks and real-time human interaction in a physical environment, which are difficult to automate. While AI can assist with peripheral tasks like digital ordering, inventory management, or automated billing, the high demand for human presence and the low cost of labor in India act as significant barriers to full automation."
+  },
+  {
+    "nco_group": "514",
+    "title": "Hairdressers, Beauticians and Related Workers",
+    "exposure": 2,
+    "rationale": "This occupation requires high-dexterity manual labor and physical presence to perform services directly on the human body, which AI cannot replicate. While AI may assist with peripheral tasks like appointment scheduling or skin/hair analysis, the core value remains the physical application of skills in a non-digital environment."
+  },
+  {
+    "nco_group": "515",
+    "title": "Building and Housekeeping Supervisors",
+    "exposure": 3,
+    "rationale": "This role requires a physical presence to inspect premises, manage cleaning staff, and handle on-site maintenance issues, which limits AI's direct impact. While AI can assist with scheduling, inventory tracking, and reporting, the core responsibilities involve real-world observation and human management in a physical environment."
+  },
+  {
+    "nco_group": "516",
+    "title": "Other Personal Services Workers",
+    "exposure": 2,
+    "rationale": "This category includes roles like astrologers, undertakers, and pet groomers, which require physical presence and real-time human interaction. While AI might assist with peripheral tasks like scheduling or generating horoscopes, the core service remains deeply rooted in the physical world and personal emotional connection."
+  },
+  {
+    "nco_group": "521",
+    "title": "Street and Market Salespersons",
+    "exposure": 1,
+    "rationale": "This occupation is fundamentally rooted in the physical world, requiring real-time human interaction, physical presence, and the manual handling of goods in unpredictable outdoor environments. In the Indian context, the informal nature of street vending and the reliance on cash-based, face-to-face transactions create a significant barrier to AI integration or automation."
+  },
+  {
+    "nco_group": "522",
+    "title": "Shop Salespersons",
+    "exposure": 3,
+    "rationale": "The core of this role involves physical presence, inventory management, and face-to-face customer interaction within a physical retail environment, which provides a natural barrier to AI. While AI may optimize supply chains or power automated checkout systems in organized retail, the vast majority of India's 33 million shop salespersons work in the informal sector where manual labor and interpersonal negotiation remain essential."
+  },
+  {
+    "nco_group": "523",
+    "title": "Cashiers and Ticket Clerks",
+    "exposure": 8,
+    "rationale": "This occupation involves routine transactional tasks and information processing that are highly susceptible to automation through AI-driven self-checkout systems and digital payment interfaces. While the Indian context still relies on cash and human interaction in many retail segments, the rapid adoption of UPI and automated ticketing systems in transport and cinema is significantly reducing the need for human clerks."
+  },
+  {
+    "nco_group": "524",
+    "title": "Other Sales Workers",
+    "exposure": 4,
+    "rationale": "This category involves a mix of physical retail presence and interpersonal interaction, which provides a buffer against full automation. However, AI is increasingly impacting these roles through automated checkout systems, inventory management tools, and AI-driven customer service kiosks that reduce the need for human staff in formal retail environments."
+  },
+  {
+    "nco_group": "531",
+    "title": "Child Care Workers and Teachers' Aides",
+    "exposure": 3,
+    "rationale": "This occupation requires high levels of physical presence, emotional intelligence, and real-time supervision of children in unpredictable environments. While AI can assist with administrative tasks or lesson planning, the core functions of caregiving and safety cannot be automated or performed digitally."
+  },
+  {
+    "nco_group": "532",
+    "title": "Personal Care Workers in Health Services",
+    "exposure": 3,
+    "rationale": "This occupation requires significant physical presence and manual dexterity for tasks like bathing, feeding, and mobility assistance, which AI cannot perform. While AI might assist with health monitoring or scheduling, the core value of the role is human-to-human care and physical support in a non-digital environment."
+  },
+  {
+    "nco_group": "541",
+    "title": "Protective Service Workers",
+    "exposure": 3,
+    "rationale": "This occupation primarily requires physical presence, patrolling, and real-time human intervention in unpredictable environments, which limits AI's direct impact. While AI-driven surveillance and automated security systems can assist with monitoring, the core tasks of physical protection, enforcement, and emergency response remain fundamentally human-centric."
+  },
+  {
+    "nco_group": "611",
+    "title": "Market Gardeners & Crop Growers",
+    "exposure": 2,
+    "rationale": "The core work is fundamentally physical and tied to the land, requiring manual labor and real-time presence in unpredictable outdoor environments. While AI can assist with peripheral tasks like crop monitoring, weather forecasting, or market price analysis, it cannot replace the physical planting, tending, and harvesting that defines this occupation in the Indian context."
+  },
+  {
+    "nco_group": "612",
+    "title": "Animal Producers",
+    "exposure": 2,
+    "rationale": "This occupation involves physical labor, animal husbandry, and real-time management of livestock in unpredictable environments, which are tasks AI cannot perform. While AI-driven sensors and data analytics can assist with health monitoring or feed optimization, the core work remains manual and requires a physical presence on farms, especially within the largely informal Indian agricultural sector."
+  },
+  {
+    "nco_group": "613",
+    "title": "Mixed Crop and Animal Workers",
+    "exposure": 2,
+    "rationale": "The core work is fundamentally physical and takes place in unpredictable outdoor environments, requiring manual labor for crop cultivation and animal husbandry. While AI-driven precision agriculture and livestock monitoring tools are emerging, the low median pay and high prevalence of smallholder farming in India make large-scale automation of these physical tasks economically and technically difficult."
+  },
+  {
+    "nco_group": "621",
+    "title": "Forestry and Related Workers",
+    "exposure": 2,
+    "rationale": "This occupation involves significant physical labor in unpredictable outdoor environments, such as planting, thinning, and harvesting trees, which AI cannot perform. While AI and drones may assist in forest monitoring or mapping, the core manual tasks and the low-tech nature of the Indian forestry sector provide a strong buffer against automation."
+  },
+  {
+    "nco_group": "622",
+    "title": "Fishery Workers, Hunters and Trappers",
+    "exposure": 1,
+    "rationale": "This occupation involves strenuous physical labor in unpredictable natural environments like open water or forests, which are highly resistant to AI automation. While AI might marginally assist in satellite-based fish finding or weather forecasting, the core tasks of harvesting, trapping, and manual equipment handling require a physical presence and sensory-motor skills that AI cannot replicate."
+  },
+  {
+    "nco_group": "631",
+    "title": "Subsistence Crop Farmers",
+    "exposure": 1,
+    "rationale": "This occupation involves manual, physical labor in unpredictable outdoor environments that AI cannot replicate or automate. Given the subsistence nature and low income levels, there is a significant barrier to technology adoption, and the core work remains fundamentally tied to physical presence and traditional agricultural practices."
+  },
+  {
+    "nco_group": "632",
+    "title": "Subsistence Livestock Farmers",
+    "exposure": 1,
+    "rationale": "This occupation involves manual, physical labor in unpredictable outdoor environments, focusing on the direct care of animals for survival. Given the extremely low pay and subsistence nature of the work in India, there is no digital component or economic feasibility for AI integration."
+  },
+  {
+    "nco_group": "633",
+    "title": "Subsistence Mixed Crop and Livestock Farmers",
+    "exposure": 1,
+    "rationale": "This occupation is almost entirely physical and manual, requiring real-time presence in unpredictable outdoor environments for crop and livestock management. In the Indian context, the extremely low pay and subsistence nature of the work make the adoption of AI-driven automation economically unfeasible and practically irrelevant to daily tasks."
+  },
+  {
+    "nco_group": "634",
+    "title": "Subsistence Fishers, Hunters, Trappers and Gatherers",
+    "exposure": 1,
+    "rationale": "This occupation is entirely physical and takes place in unpredictable natural environments, requiring manual dexterity and traditional knowledge that AI cannot replicate. The work is non-digital and subsistence-based, meaning it lacks the technological infrastructure or economic incentive for AI integration."
+  },
+  {
+    "nco_group": "711",
+    "title": "Building Frames and Related Trades Workers",
+    "exposure": 1,
+    "rationale": "This occupation involves heavy physical labor, manual dexterity, and real-time adaptation to unpredictable construction environments that cannot be digitized. While AI might optimize project scheduling or architectural design at a managerial level, the core tasks of building frames and structural work remain insulated from AI automation due to the lack of robotics integration in India's construction sector."
+  },
+  {
+    "nco_group": "712",
+    "title": "Building Finishers and Related Trades Workers",
+    "exposure": 1,
+    "rationale": "Building finishing work (plastering, tiling, glazing) is almost entirely physical and hands-on, requiring manual skill and presence on construction sites. AI has minimal impact on these tasks, similar to other construction trades."
+  },
+  {
+    "nco_group": "713",
+    "title": "Painters, Builders, Structure Cleaners and Related Trades Workers",
+    "exposure": 1,
+    "rationale": "This occupation involves intensive manual labor, physical dexterity, and real-time adaptation to diverse physical environments that cannot be digitized. While specialized robotics exist for painting or cleaning, the high cost of automation compared to the low cost of labor in India makes AI-driven displacement highly unlikely in the foreseeable future."
+  },
+  {
+    "nco_group": "721",
+    "title": "Sheet and Structural Metal Workers, Moulders and Welders, and Related Workers",
+    "exposure": 2,
+    "rationale": "This occupation involves heavy physical labor, manual dexterity, and real-time manipulation of physical materials in unpredictable environments like construction sites or small-scale workshops. While industrial robotics exist for large-scale manufacturing, the vast majority of these workers in India operate in the informal or semi-formal sector where AI and automation are cost-prohibitive and cannot easily replicate human adaptability."
+  },
+  {
+    "nco_group": "722",
+    "title": "Blacksmiths, Tool Makers and Related Trades Workers",
+    "exposure": 2,
+    "rationale": "This occupation involves intensive physical labor, manual dexterity, and the manipulation of physical materials in high-heat or industrial environments. While AI might optimize supply chains or basic design templates, the core execution requires human presence and tactile skill that cannot be replicated by digital AI."
+  },
+  {
+    "nco_group": "723",
+    "title": "Machinery Mechanics and Repairers",
+    "exposure": 2,
+    "rationale": "This occupation requires high levels of manual dexterity, physical presence, and real-world problem-solving in unpredictable environments. While AI might assist with diagnostic software or predictive maintenance schedules, the core tasks of dismantling, repairing, and reassembling heavy machinery remain fundamentally resistant to automation."
+  },
+  {
+    "nco_group": "731",
+    "title": "Handicraft Workers",
+    "exposure": 2,
+    "rationale": "Handicraft work is fundamentally physical and tactile, requiring manual dexterity and the manipulation of physical materials that AI cannot replicate. While AI might assist in peripheral areas like pattern design or digital marketing for artisans, the core value of the occupation lies in human-made physical products and traditional craftsmanship."
+  },
+  {
+    "nco_group": "732",
+    "title": "Printing Trades Workers",
+    "exposure": 4,
+    "rationale": "While the design and prepress stages are highly digital and exposed to AI automation, the core of this occupation in India involves operating physical machinery, handling materials, and maintenance in a factory setting. The relatively low median pay and the physical nature of the printing process in the informal and MSME sectors provide a buffer against full AI displacement."
+  },
+  {
+    "nco_group": "741",
+    "title": "Electrical Equipment Installers and Repairers",
+    "exposure": 2,
+    "rationale": "This occupation requires physical presence, manual dexterity, and real-time troubleshooting in diverse, unpredictable physical environments. While AI might assist with diagnostic software or scheduling, the core tasks of installing wiring and repairing hardware cannot be automated without advanced robotics that are not yet viable in the Indian context."
+  },
+  {
+    "nco_group": "742",
+    "title": "Electronics and Telecommunication Installers and Repairers",
+    "exposure": 3,
+    "rationale": "This occupation requires significant physical presence, manual dexterity, and on-site troubleshooting in unpredictable environments, which limits direct AI automation. While AI can assist with diagnostic software or remote technical support, the core tasks of installing hardware and repairing physical circuitry remain resistant to digital replacement."
+  },
+  {
+    "nco_group": "751",
+    "title": "Food Processing and Related Trade Workers",
+    "exposure": 2,
+    "rationale": "This occupation involves manual, physical tasks such as slaughtering, baking, and preserving food, which require sensory judgment and physical dexterity in a non-digital environment. While industrial automation exists, the low median pay and high worker count in India suggest a reliance on manual labor that is currently more cost-effective than deploying advanced AI-driven robotics."
+  },
+  {
+    "nco_group": "752",
+    "title": "Wood Treaters, Cabinet Makers and Related Trades Workers",
+    "exposure": 2,
+    "rationale": "This occupation involves highly manual, physical tasks such as cutting, shaping, and treating wood in physical environments that require tactile precision and spatial awareness. While AI might assist in peripheral design or inventory management, the core work remains grounded in the physical world and is resistant to digital automation."
+  },
+  {
+    "nco_group": "753",
+    "title": "Garment and Related Trades Workers",
+    "exposure": 2,
+    "rationale": "This occupation involves highly tactile, physical tasks such as cutting, sewing, and assembling fabrics that require manual dexterity and real-time adjustments in a physical environment. While AI can optimize supply chains or pattern designs, the core labor in the Indian context remains heavily reliant on human hands and is shielded by the high cost of specialized robotics relative to low labor wages."
+  },
+  {
+    "nco_group": "754",
+    "title": "Other Craft and Related Workers",
+    "exposure": 2,
+    "rationale": "This group involves manual, physical labor in crafts such as food processing, woodworking, and garment making, which require tactile precision and physical presence. AI has minimal impact on these core manual tasks, though it may marginally affect peripheral administrative or design functions."
+  },
+  {
+    "nco_group": "811",
+    "title": "Mining and Mineral Processing Plant Operators",
+    "exposure": 3,
+    "rationale": "This occupation involves the physical operation and monitoring of heavy machinery in industrial environments, which provides a natural barrier to full AI automation. While AI can optimize processing parameters and predictive maintenance, the core tasks require physical presence and manual intervention in unpredictable, high-risk settings typical of the Indian mining sector."
+  },
+  {
+    "nco_group": "812",
+    "title": "Metal Processing and Finishing Plant Operators",
+    "exposure": 3,
+    "rationale": "This occupation involves operating heavy physical machinery and handling industrial materials, which requires physical presence and manual intervention in a factory environment. While AI can optimize furnace temperatures or predict maintenance needs, the core tasks remain grounded in the physical world, limiting exposure compared to digital-first roles."
+  },
+  {
+    "nco_group": "813",
+    "title": "Chemical and Photographic Products Plant and Machine Operators",
+    "exposure": 3,
+    "rationale": "This occupation involves the physical operation and monitoring of industrial machinery, which requires a physical presence on the factory floor to handle materials and respond to mechanical issues. While AI can optimize chemical processes and predictive maintenance, the core tasks remain tied to physical infrastructure and manual intervention in the Indian manufacturing context."
+  },
+  {
+    "nco_group": "814",
+    "title": "Rubber, Plastic and Paper Products Machine Operators",
+    "exposure": 3,
+    "rationale": "This occupation involves operating physical machinery in a factory setting, which provides a natural barrier against purely digital AI. While AI can optimize production lines and predictive maintenance, the core tasks require physical presence, manual dexterity, and real-time troubleshooting of hardware that AI cannot yet replicate without expensive robotics."
+  },
+  {
+    "nco_group": "815",
+    "title": "Textile, Fur and Leather Products Machine Operators",
+    "exposure": 3,
+    "rationale": "This occupation involves operating physical machinery in a factory environment, which provides a natural barrier against pure software-based AI. While industrial automation and robotics are advancing, the low median pay in India makes full-scale AI-driven robotic replacement less economically viable than in high-wage economies, keeping the core tasks manual and physical."
+  },
+  {
+    "nco_group": "816",
+    "title": "Food and Related Products Machine Operators",
+    "exposure": 3,
+    "rationale": "This occupation requires physical presence to operate, monitor, and maintain machinery in a factory environment, which acts as a barrier to pure AI displacement. While AI can optimize production cycles and predictive maintenance, the core tasks involve handling physical materials and manual intervention that AI cannot perform without expensive robotics, which are less prevalent in India's labor-intensive manufacturing sector."
+  },
+  {
+    "nco_group": "817",
+    "title": "Wood Processing and Papermaking Plant Operators",
+    "exposure": 3,
+    "rationale": "This occupation involves operating heavy machinery and physical processing of raw materials in a factory setting, which provides a natural barrier to digital AI. While AI can optimize supply chains or monitor equipment sensors for predictive maintenance, the core tasks remain physical and require on-site human intervention and manual oversight in the Indian industrial context."
+  },
+  {
+    "nco_group": "818",
+    "title": "Other Stationary Plant and Machine Operators",
+    "exposure": 3,
+    "rationale": "This occupation involves operating physical machinery and industrial equipment, which requires a physical presence and manual intervention in a factory or plant setting. While AI can optimize machine performance and predictive maintenance, the core tasks remain tied to the physical world and are more susceptible to traditional industrial automation than to generative AI."
+  },
+  {
+    "nco_group": "821",
+    "title": "Assemblers",
+    "exposure": 3,
+    "rationale": "Assemblers perform physical tasks in manufacturing environments that require manual dexterity and real-time physical coordination, which provides a natural barrier to current AI. While industrial robotics and automation are advancing, the core work is not digital, and AI's role in India's manufacturing sector is currently limited to peripheral process optimization rather than replacing the human assembler."
+  },
+  {
+    "nco_group": "831",
+    "title": "Locomotive Engine Drivers and Related Workers",
+    "exposure": 4,
+    "rationale": "While the core task of operating a train is increasingly subject to automation and AI-driven signaling systems, the role in India remains highly physical and safety-critical, requiring real-time human intervention in unpredictable environments. However, AI is being integrated into predictive maintenance, route optimization, and driver-assist safety systems, moderately reshaping the technical demands of the occupation."
+  },
+  {
+    "nco_group": "832",
+    "title": "Car, Van and Motorcycle Drivers",
+    "exposure": 2,
+    "rationale": "The core task requires physical presence and real-time navigation of India's highly unpredictable and often unmapped road environments, which current AI and autonomous driving technologies struggle to handle. While AI-driven dispatch and navigation apps assist with peripheral tasks, the physical act of driving and vehicle maintenance remains a manual human requirement in the Indian context."
+  },
+  {
+    "nco_group": "833",
+    "title": "Heavy Truck and Bus Drivers",
+    "exposure": 2,
+    "rationale": "The core task requires physical presence and real-time navigation of India's highly unpredictable road environments, which current AI and autonomous systems struggle to handle. While AI may eventually assist with route optimization or safety monitoring, the physical nature of the work and the lack of structured infrastructure in the Indian context provide a significant barrier to automation."
+  },
+  {
+    "nco_group": "834",
+    "title": "Mobile Plant Operators",
+    "exposure": 3,
+    "rationale": "This occupation requires physical presence and manual operation of heavy machinery in unpredictable environments like construction sites or mines, which provides a natural barrier to full automation. While AI and autonomous vehicle technology are advancing in controlled settings, the high cost of deployment and the informal nature of much of India's infrastructure limit AI to peripheral assistance or safety monitoring in the near term."
+  },
+  {
+    "nco_group": "835",
+    "title": "Ships\u2019 Deck Crews and Related Workers",
+    "exposure": 2,
+    "rationale": "This occupation involves heavy manual labor, physical maintenance, and deck operations in a dynamic maritime environment that requires real-time physical presence. While AI may optimize navigation or logistics at a higher level, the core tasks of deck crews\u2014such as handling lines, cleaning, and equipment repair\u2014remain resistant to automation in the near term."
+  },
+  {
+    "nco_group": "911",
+    "title": "Domestic, Hotel and Office Cleaners and Helpers",
+    "exposure": 1,
+    "rationale": "This occupation involves physical labor and manual dexterity in unpredictable, real-world environments that AI cannot navigate or manipulate. While specialized robotics exist for floor cleaning, the vast majority of tasks in the Indian context\u2014such as dusting, washing, and tidying\u2014require human presence and are not cost-effective to automate."
+  },
+  {
+    "nco_group": "912",
+    "title": "Vehicle, Window, Laundry and Other Hand Cleaners",
+    "exposure": 1,
+    "rationale": "This occupation involves manual, physical labor in unpredictable outdoor or on-site environments that require human dexterity and mobility. Since the work product is entirely physical and cannot be digitized, AI has virtually no impact on the core tasks of hand-cleaning vehicles or windows."
+  },
+  {
+    "nco_group": "921",
+    "title": "Agricultural, Forestry and Fishery Labourers",
+    "exposure": 1,
+    "rationale": "This occupation involves manual, physical labor in unpredictable outdoor environments that require human presence and dexterity. Given the low wages and the informal nature of the Indian agricultural sector, the cost of AI-driven robotics far exceeds human labor, making automation economically and technically impractical for the foreseeable future."
+  },
+  {
+    "nco_group": "931",
+    "title": "Mining and Construction Labourers",
+    "exposure": 1,
+    "rationale": "This occupation involves heavy physical labor, manual dexterity, and real-time navigation of unpredictable outdoor environments, which are currently beyond the reach of AI. In the Indian context, the low cost of labor and the informal nature of construction work make the adoption of expensive robotic automation highly unlikely for the foreseeable future."
+  },
+  {
+    "nco_group": "932",
+    "title": "Manufacturing Labourers",
+    "exposure": 1,
+    "rationale": "This occupation involves manual, physical labor in manufacturing environments that are often unpredictable or require dexterity not yet replicable by AI. In the Indian context, the low cost of labor and the informal nature of many manufacturing units make the adoption of expensive robotics or AI-driven automation economically unfeasible for the foreseeable future."
+  },
+  {
+    "nco_group": "933",
+    "title": "Transport and Storage Labourers",
+    "exposure": 1,
+    "rationale": "This occupation involves heavy physical labor, such as loading and unloading goods and manual transport, which cannot be performed by AI software. While large-scale warehouse automation exists, the Indian context relies heavily on low-cost manual labor in unpredictable, non-standardized environments where AI has minimal direct impact."
+  },
+  {
+    "nco_group": "941",
+    "title": "Food Preparation Assistants",
+    "exposure": 1,
+    "rationale": "This occupation involves manual, physical tasks such as washing, peeling, and chopping food in unpredictable kitchen environments. Because the work requires high dexterity and physical presence in a non-digital setting, it is highly insulated from current AI and automation technologies."
+  },
+  {
+    "nco_group": "951",
+    "title": "Street and Related Service Workers",
+    "exposure": 1,
+    "rationale": "This occupation involves physical labor and real-time human presence in unpredictable outdoor environments, such as street cleaning or basic manual services. Because the work is non-digital and requires physical mobility in the informal economy, AI has virtually no impact on its core tasks."
+  },
+  {
+    "nco_group": "952",
+    "title": "Street Vendors (Excluding Food)",
+    "exposure": 1,
+    "rationale": "This occupation is fundamentally physical and requires real-time human presence in unpredictable outdoor environments to sell goods. While AI might marginally influence supply chains or digital payments, the core tasks of physical inventory management and face-to-face street-level negotiation cannot be automated by current AI technologies."
+  },
+  {
+    "nco_group": "961",
+    "title": "Refuse Workers",
+    "exposure": 1,
+    "rationale": "This occupation involves strenuous physical labor and manual handling of waste in unpredictable outdoor environments, which are tasks currently beyond the reach of AI. While large-scale waste management logistics may be optimized by software, the core work of refuse collection in the Indian context remains highly manual and physically demanding."
+  },
+  {
+    "nco_group": "962",
+    "title": "Other Elementary Workers",
+    "exposure": 1,
+    "rationale": "This occupation involves physical, manual labor in unpredictable environments, such as refuse collection and miscellaneous street-level tasks, which cannot be digitized. Given the low wages and the informal nature of this work in India, there is no economic or technical incentive for AI or robotics to replace these workers in the foreseeable future."
+  }
+]
