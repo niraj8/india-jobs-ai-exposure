@@ -175,6 +175,55 @@ body {
 }
 .gradient-legend canvas { border-radius: 2px; }
 
+.emp-toggle {
+  display: flex;
+  gap: 4px;
+}
+.emp-toggle button {
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--fg2);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.emp-toggle button.active {
+  background: rgba(255,255,255,0.08);
+  color: var(--fg);
+  border-color: rgba(255,255,255,0.2);
+}
+.emp-toggle button:hover:not(.active) {
+  background: rgba(255,255,255,0.04);
+}
+.emp-toggle button {
+  position: relative;
+}
+.emp-toggle button::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--fg2);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 10;
+}
+.emp-toggle button:hover::after {
+  opacity: 1;
+}
+
 canvas#canvas {
   display: block;
   cursor: default;
@@ -254,6 +303,15 @@ Respond with ONLY a JSON object in this exact format, no other text:
         <button data-mode="skill">Skill Level</button>
       </div>
     </div>
+    <div class="stat-section">
+      <h3>Workers</h3>
+      <div class="emp-toggle" id="empToggle">
+        <button data-emp="all" class="active" data-tip="All employed workers">All</button>
+        <button data-emp="salaried" data-tip="Regular wage/salary employees">Salaried</button>
+        <button data-emp="self_employed" data-tip="Own-account workers, employers, unpaid family helpers">Self-employed</button>
+        <button data-emp="casual" data-tip="Casual labourers in public works and other activities">Casual</button>
+      </div>
+    </div>
     <div class="gradient-legend">
       <span id="legendLow">&rupee;3K</span>
       <canvas id="gradientLegend" width="80" height="8"></canvas>
@@ -291,8 +349,13 @@ Respond with ONLY a JSON object in this exact format, no other text:
 // ── Color scales ────────────────────────────────────────────────────────
 
 const VALID_MODES = ["exposure", "pay", "skill"];
-const hashMode = location.hash.replace("#", "");
-let colorMode = VALID_MODES.includes(hashMode) ? hashMode : "exposure";
+const EMP_TYPES = ["all", "salaried", "self_employed", "casual"];
+const hashParts = location.hash.replace("#", "").split("-");
+let colorMode = VALID_MODES.includes(hashParts[0]) ? hashParts[0] : "exposure";
+let empType = "all";
+if (hashParts.length > 1 && EMP_TYPES.includes(hashParts.slice(1).join("_"))) {
+  empType = hashParts.slice(1).join("_");
+}
 
 function boostContrast(t) {
   const c = (t - 0.5) * 2;
@@ -418,6 +481,7 @@ function worstAspect(row, rowSum, side, totalArea, availableExtent) {
 
 // ── Rendering ──────────────────────────────────────────────────────────
 
+let allData = {};
 let data = [];
 let rects = [];
 let hovered = null;
@@ -812,20 +876,46 @@ function setMode(mode) {
   }
 }
 
+function setEmpType(type) {
+  if (!EMP_TYPES.includes(type) || type === empType) return;
+  empType = type;
+  document.querySelectorAll("#empToggle button").forEach(b =>
+    b.classList.toggle("active", b.dataset.emp === type)
+  );
+  if (allData[type]) {
+    data = allData[type];
+    updateStats();
+    layout();
+    draw();
+  }
+}
+
 document.getElementById("colorToggle").addEventListener("click", (e) => {
   const btn = e.target.closest("button");
   if (!btn || !btn.dataset.mode) return;
-  location.hash = btn.dataset.mode;
+  location.hash = btn.dataset.mode + "-" + empType.replace("_", "-");
+});
+
+document.getElementById("empToggle").addEventListener("click", (e) => {
+  const btn = e.target.closest("button");
+  if (!btn || !btn.dataset.emp) return;
+  location.hash = colorMode + "-" + btn.dataset.emp.replace("_", "-");
 });
 
 window.addEventListener("hashchange", () => {
-  const mode = location.hash.replace("#", "");
-  setMode(mode);
+  const parts = location.hash.replace("#", "").split("-");
+  const mode = parts[0];
+  const emp = parts.slice(1).join("_");
+  if (VALID_MODES.includes(mode)) setMode(mode);
+  if (EMP_TYPES.includes(emp)) setEmpType(emp);
 });
 
 // ── Init active button from hash ─────────────────────────────────────
 document.querySelectorAll("#colorToggle button").forEach(b =>
   b.classList.toggle("active", b.dataset.mode === colorMode)
+);
+document.querySelectorAll("#empToggle button").forEach(b =>
+  b.classList.toggle("active", b.dataset.emp === empType)
 );
 
 // ── Load ───────────────────────────────────────────────────────────────
@@ -833,7 +923,8 @@ document.querySelectorAll("#colorToggle button").forEach(b =>
 fetch("data.json")
   .then(r => r.json())
   .then(d => {
-    data = d;
+    allData = d;
+    data = allData[empType];
     updateStats();
     drawGradientLegend();
     resize();
