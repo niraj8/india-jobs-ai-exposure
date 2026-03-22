@@ -249,9 +249,9 @@ Respond with ONLY a JSON object in this exact format, no other text:
     <div class="stat-section">
       <h3>Layer</h3>
       <div class="color-toggle" id="colorToggle">
-        <button data-mode="pay" class="active">Median Pay</button>
+        <button data-mode="exposure" class="active">AI Exposure</button>
+        <button data-mode="pay">Median Pay</button>
         <button data-mode="skill">Skill Level</button>
-        <button data-mode="exposure">AI Exposure</button>
       </div>
     </div>
     <div class="gradient-legend">
@@ -290,7 +290,9 @@ Respond with ONLY a JSON object in this exact format, no other text:
 
 // ── Color scales ────────────────────────────────────────────────────────
 
-let colorMode = "pay";
+const VALID_MODES = ["exposure", "pay", "skill"];
+const hashMode = location.hash.replace("#", "");
+let colorMode = VALID_MODES.includes(hashMode) ? hashMode : "exposure";
 
 function boostContrast(t) {
   const c = (t - 0.5) * 2;
@@ -796,17 +798,35 @@ function drawGradientLegend() {
 
 // ── Layer toggle ─────────────────────────────────────────────────────
 
+function setMode(mode) {
+  if (!VALID_MODES.includes(mode) || mode === colorMode) return;
+  colorMode = mode;
+  document.querySelectorAll("#colorToggle button").forEach(b =>
+    b.classList.toggle("active", b.dataset.mode === mode)
+  );
+  if (data) {
+    updateStats();
+    drawGradientLegend();
+    draw();
+    requestAnimationFrame(resize);
+  }
+}
+
 document.getElementById("colorToggle").addEventListener("click", (e) => {
   const btn = e.target.closest("button");
   if (!btn || !btn.dataset.mode) return;
-  colorMode = btn.dataset.mode;
-  document.querySelectorAll("#colorToggle button").forEach(b => b.classList.remove("active"));
-  btn.classList.add("active");
-  updateStats();
-  drawGradientLegend();
-  draw();
-  requestAnimationFrame(resize);
+  location.hash = btn.dataset.mode;
 });
+
+window.addEventListener("hashchange", () => {
+  const mode = location.hash.replace("#", "");
+  setMode(mode);
+});
+
+// ── Init active button from hash ─────────────────────────────────────
+document.querySelectorAll("#colorToggle button").forEach(b =>
+  b.classList.toggle("active", b.dataset.mode === colorMode)
+);
 
 // ── Load ───────────────────────────────────────────────────────────────
 
